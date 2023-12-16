@@ -11,35 +11,99 @@ let availableQuesions = [];
 
 let questions = [
   {
-    question: "Inside which HTML element do we put the JavaScript??",
-    choice1: "<script>",
-    choice2: "<javascript>",
-    choice3: "<js>",
-    choice4: "<scripting>",
+  
+    question: "what is the capital of france?",
+    choice1: "paris",
+    choice2: "madrid",
+    choice3: "rome",
+    choice4: "berlin",
     answer: 1
   },
   {
     question:
-      "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    choice1: "<script href='xxx.js'>",
-    choice2: "<script name='xxx.js'>",
-    choice3: "<script src='xxx.js'>",
-    choice4: "<script file='xxx.js'>",
+      "Which planet is known as the red planet?",
+    choice1: "venus",
+    choice2: "Mars",
+    choice3: "saturn",
+    choice4: "jupitor",
+    answer: 2
+  },
+  {
+    question: " who painted the famous artwork MONALISA ?",
+    choice1: "pablo picasso",
+    choice2: "Leonardo da vinci",
+    choice3: "vincent van Gogh",
+    choice4: "Michelangelo",
+    answer: 2
+  },
+  {
+    question:
+      "What is the largest mammal in the world?",
+    choice1: "African Elephant",
+    choice2: "Blue Whale",
+    choice3: "Giraffe",
+    choice4: "Hippopotamus",
+    answer: 2
+  },
+  {
+    question:
+      "what is the powerhouse of the cell?",
+    choice1: "Ribosome",
+    choice2: "Nucleus",
+    choice3: "Mitochondorion",
+    choice4: "Endoplasmic reticulum",
     answer: 3
   },
   {
-    question: " How do you write 'Hello World' in an alert box?",
-    choice1: "msgBox('Hello World');",
-    choice2: "alertBox('Hello World');",
-    choice3: "msg('Hello World');",
-    choice4: "alert('Hello World');",
-    answer: 4
-  }
+    question:
+      "Which country is home to the pyramids of Giza?",
+    choice1: "Turkey",
+    choice2: "Egypt",
+    choice3: "Greece",
+    choice4: "Sudan",
+    answer: 2
+  },
+  {
+    question:
+      "Who wrote the play'Romeo and Juliet'?",
+    choice1: "Charles Dickens",
+    choice2: "William Shakespeare",
+    choice3: "Jane Austen",
+    choice4: "Mark Twain",
+    answer: 2
+  },
+  {
+    question:
+      "what is the Chemical symbol for gold ?",
+    choice1: "Go",
+    choice2: "Au",
+    choice3: "Ag",
+    choice4: "Gold",
+    answer: 2
+  },
+  {
+    question:
+      "which of the following is a renewable source of energy?",
+    choice1: "Coal",
+    choice2: "Natural Gas",
+    choice3: "Solar",
+    choice4: "Oil",
+    answer: 3
+  },
+  {
+    question:
+      "who is the fisrt person to step on the moon?",
+    choice1: "Buzz Aldrin",
+    choice2: "Neil Armstrong",
+    choice3: "Yuri Gagarin",
+    choice4: "John Glenn",
+    answer: 2
+  },
 ];
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
   questionCounter = 0;
